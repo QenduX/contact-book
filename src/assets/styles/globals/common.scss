@@ -1,0 +1,37 @@
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Proxima Nova, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #545454;
+}
+
+li{
+    list-style: none;  
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container__wrapper {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1200px) {
+        padding: 0 32px;
+    }
+
+    @media screen and (max-width: 567px) {
+        padding: 0 12px;
+    }
+}
